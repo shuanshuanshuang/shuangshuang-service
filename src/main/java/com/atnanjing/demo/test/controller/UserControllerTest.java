@@ -6,14 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-public class UserController {
+public class UserControllerTest {
 
     @Autowired
     private UserService userService;
 
-    @RequestMapping(value = "{id}",method = RequestMethod.GET)
+    /*@RequestMapping(value = "{id}",method = RequestMethod.GET)
     public UserDTO getUser(@PathVariable("id") Long id){
         UserDTO userById = userService.findUserById(id);
         return userById;
-    }
+    }*/
 }

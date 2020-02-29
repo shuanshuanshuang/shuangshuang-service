@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
+@org.apache.dubbo.config.annotation.Service(version = "${demo.service.version}")
 public class UserServiceImpl  implements UserService {
     @Autowired
     private UserMapper userMapper;
