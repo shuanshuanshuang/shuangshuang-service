@@ -14,7 +14,7 @@ public class TradeMqProducerTemp {
     private String msgKey;
 
     private String msgBody;
-
+    //0:未处理;1:已经处理
     private Integer msgStatus;
 
     private Date createTime;

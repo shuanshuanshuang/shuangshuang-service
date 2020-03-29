@@ -4,16 +4,17 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 public class TradeCoupon {
+    //优惠券ID
     private Long couponId;
-
+    //优惠券金额
     private BigDecimal couponPrice;
-
+    //用户ID
     private Long userId;
-
+    //订单ID
     private Long orderId;
-
+    //是否使用 0未使用  1已使用
     private Integer isUsed;
-
+    //使用时间
     private Date usedTime;
 
     public Long getCouponId() {

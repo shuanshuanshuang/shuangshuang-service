@@ -3,18 +3,19 @@ package com.atnanjing.demo.dao;
 import java.util.Date;
 
 public class TradeUser {
+    //用户ID
     private Long userId;
-
+    //用户姓名
     private String userName;
-
+    //用户密码
     private String userPassword;
-
+    //手机号
     private String userMobile;
-
+    //积分
     private Integer userScore;
-
+    //注册时间
     private Date userRegTime;
-
+    //用户金额
     private Long userMoney;
 
     public Long getUserId() {

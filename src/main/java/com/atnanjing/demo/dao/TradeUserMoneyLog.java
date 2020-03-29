@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class TradeUserMoneyLog extends TradeUserMoneyLogKey {
     private BigDecimal useMoney;
-
+    //日志时间
     private Date createTime;
 
     public BigDecimal getUseMoney() {

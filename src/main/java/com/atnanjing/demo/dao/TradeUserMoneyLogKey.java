@@ -1,10 +1,11 @@
 package com.atnanjing.demo.dao;
 
 public class TradeUserMoneyLogKey {
+    //用户id
     private Long userId;
-
+    //订单id
     private Long orderId;
-
+    //日志类型   1订单付款   2订单退款
     private Integer moneyLogType;
 
     public Long getUserId() {

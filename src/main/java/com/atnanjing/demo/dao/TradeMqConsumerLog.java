@@ -6,7 +6,7 @@ public class TradeMqConsumerLog extends TradeMqConsumerLogKey {
     private String msgId;
 
     private String msgBody;
-
+    //0:正在处理;1:处理成功;2:处理失败'
     private Integer consumerStatus;
 
     private Integer consumerTimes;

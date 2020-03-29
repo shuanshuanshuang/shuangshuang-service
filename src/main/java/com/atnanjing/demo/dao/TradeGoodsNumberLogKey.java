@@ -1,8 +1,9 @@
 package com.atnanjing.demo.dao;
 
 public class TradeGoodsNumberLogKey {
+    //商品id
     private Long goodsId;
-
+    //订单id
     private Long orderId;
 
     public Long getGoodsId() {

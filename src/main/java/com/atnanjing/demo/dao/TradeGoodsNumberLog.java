@@ -3,6 +3,7 @@ package com.atnanjing.demo.dao;
 import java.util.Date;
 
 public class TradeGoodsNumberLog extends TradeGoodsNumberLogKey {
+    //库存数量
     private Integer goodsNumber;
 
     private Date logTime;
