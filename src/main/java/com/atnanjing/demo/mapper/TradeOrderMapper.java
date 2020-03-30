@@ -2,10 +2,11 @@ package com.atnanjing.demo.mapper;
 
 import com.atnanjing.demo.dao.TradeOrder;
 import com.atnanjing.demo.dao.TradeOrderExample;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
-
+@Mapper
 public interface TradeOrderMapper {
     long countByExample(TradeOrderExample example);
 

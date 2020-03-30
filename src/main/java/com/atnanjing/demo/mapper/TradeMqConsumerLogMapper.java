@@ -3,10 +3,11 @@ package com.atnanjing.demo.mapper;
 import com.atnanjing.demo.dao.TradeMqConsumerLog;
 import com.atnanjing.demo.dao.TradeMqConsumerLogExample;
 import com.atnanjing.demo.dao.TradeMqConsumerLogKey;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
-
+@Mapper
 public interface TradeMqConsumerLogMapper {
     long countByExample(TradeMqConsumerLogExample example);
 

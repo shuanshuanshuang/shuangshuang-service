@@ -2,10 +2,11 @@ package com.atnanjing.demo.mapper;
 
 import com.atnanjing.demo.dao.TradeCoupon;
 import com.atnanjing.demo.dao.TradeCouponExample;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
-
+@Mapper
 public interface TradeCouponMapper {
     long countByExample(TradeCouponExample example);
 

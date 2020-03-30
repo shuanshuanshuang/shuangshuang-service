@@ -3,10 +3,11 @@ package com.atnanjing.demo.mapper;
 import com.atnanjing.demo.dao.TradeGoodsNumberLog;
 import com.atnanjing.demo.dao.TradeGoodsNumberLogExample;
 import com.atnanjing.demo.dao.TradeGoodsNumberLogKey;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
-
+@Mapper
 public interface TradeGoodsNumberLogMapper {
     long countByExample(TradeGoodsNumberLogExample example);
 

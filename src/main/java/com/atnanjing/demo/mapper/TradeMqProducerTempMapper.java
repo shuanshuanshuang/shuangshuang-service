@@ -2,10 +2,11 @@ package com.atnanjing.demo.mapper;
 
 import com.atnanjing.demo.dao.TradeMqProducerTemp;
 import com.atnanjing.demo.dao.TradeMqProducerTempExample;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
-
+@Mapper
 public interface TradeMqProducerTempMapper {
     long countByExample(TradeMqProducerTempExample example);
 

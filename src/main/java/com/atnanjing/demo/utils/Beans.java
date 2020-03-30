@@ -34,4 +34,10 @@ public class Beans {
         HttpMessageConverter<?> converter = fastJsonHttpMessageConverter;
         return new HttpMessageConverters(converter);
     }
+
+
+    @Bean
+    public IDWorker getBean(){
+        return new IDWorker(1,1);
+    }
 }

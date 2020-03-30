@@ -2,10 +2,11 @@ package com.atnanjing.demo.mapper;
 
 import com.atnanjing.demo.dao.TradeUser;
 import com.atnanjing.demo.dao.TradeUserExample;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
-
+@Mapper
 public interface TradeUserMapper {
     long countByExample(TradeUserExample example);
 
@@ -28,4 +29,6 @@ public interface TradeUserMapper {
     int updateByPrimaryKeySelective(TradeUser record);
 
     int updateByPrimaryKey(TradeUser record);
+
+    void reduceUserMoney(TradeUser tradeUserDTO);
 }

@@ -3,10 +3,11 @@ package com.atnanjing.demo.mapper;
 import com.atnanjing.demo.dao.TradeUserMoneyLog;
 import com.atnanjing.demo.dao.TradeUserMoneyLogExample;
 import com.atnanjing.demo.dao.TradeUserMoneyLogKey;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
-
+@Mapper
 public interface TradeUserMoneyLogMapper {
     long countByExample(TradeUserMoneyLogExample example);
 
